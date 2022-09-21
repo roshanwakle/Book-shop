@@ -1,0 +1,136 @@
+.background {
+    /* background-color: #000301; */
+    background-image: url("https://mdpiblog.wordpress.sciforum.net/wp-content/uploads/sites/4/2018/01/books.jpg");
+    background-color: #0e0000;
+    font-family: source-sans-pro, sans-serif;
+}
+
+h1 {
+    margin-right: 90px;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.8em;
+    color: #6466dc;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.Contain-all {
+    /* box-shadow: 1px 8px 0 rgba(142, 241, 22, 0.2), 0 6px 20px 0 rgba(68, 255, 11, 0.19); */
+    width: 500px;
+    margin: auto;
+}
+
+.formStyle {
+    background-color: #626362;
+    padding: 20px;
+    width: 400px;
+    margin-bottom: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #0cbeeb;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    font-size: 1em;
+    font-weight: 100;
+    color: #fffefe;
+}
+
+/* .formButton {
+   
+    margin-right: 40px;
+    margin-top: 15px;
+    padding:6px 24px;
+    margin-left: 150px;
+    text-decoration:none;
+    font-weight: 500;
+    background-color:#c6baba;
+    display:inline-block;
+    color:#090a09;
+    
+  } */
+
+
+
+/* CSS */
+.formButton {
+    margin-right: 40px;
+    margin-top: 15px;
+    padding: 6px 24px;
+    margin-left: 150px;
+    text-decoration: none;
+    font-weight: 500;
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.formButton {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.formButton {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.formButton:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.formButton:hover {
+    background-color: #252726;
+    color: #ffffff;
+}
+
+.formButton:active {
+    position: relative;
+    top: 3px;
+}
+
+input:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #ecf0f1;
+}
+
+:-moz-placeholder {
+    color: #ecf0f1;
+}
+
+::-moz-placeholder {
+    color: #ecf0f1;
+}
+
+:-ms-input-placeholder {
+    color: #ecf0f1;
+}

@@ -1,0 +1,118 @@
+
+
+
+  #customers {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: rgb(183, 178, 178);}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #343837;
+    color: white;
+  }
+
+/* ==== */
+  
+.round-1 {
+  background-color: #000c09; /* Green */
+  border: none;
+  color: rgb(255, 252, 252);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 70%;
+  width: 40px;
+  height: 40px;
+
+}
+.round-2 {
+  background-color: #000c09; /* Green */
+  border: none;
+  color: rgb(255, 252, 252);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 70%;
+  width: 40px;
+  height: 40px;
+}
+
+.totalPrice{
+color: rgb(0, 0, 9);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 40px;
+border: #343837;
+}
+.ClearCart{
+  background-color: black;
+  border-radius: 5px solid green;
+  color: white;
+}
+
+/* =======Buy Now======== */
+
+.BuyNow {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #a24a10;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.BuyNow:hover,
+.BuyNow:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.BuyNow:hover {
+  transform: translateY(-1px);
+}
+
+.BuyNow:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}

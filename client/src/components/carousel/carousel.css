@@ -1,0 +1,13 @@
+.primary{
+    border: 7rem;
+    border-color: rgb(5, 245, 245);
+    color: rgb(239, 227, 227);
+    background-color: rgb(10, 10, 10);
+    height: 70px;
+    width: 300px;
+}
+
+.primary:hover{
+    color: rgb(120, 5, 5);  
+    background-color: aqua;
+}
